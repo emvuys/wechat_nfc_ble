@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/bluetooth/bluetooth",
+    "pages/about/about",
+    "pages/show/show"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "微信小程序Android手机搜索蓝牙需要开启定位功能" 
+    },
+    "scope.bluetooth": {
+      "desc": "你的蓝牙信息将用于连接设备"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EEF6FD",
+    "navigationBarTitleText": "蓝牙测试工具",
+    "navigationBarTextStyle": "black"
+  },
+  "backgroundTextStyle":"#EEF6FD",
+  "backgroundColor": "#EEF6FD",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "enablePullDownRefresh":false,
+  "disableScroll": true
+}

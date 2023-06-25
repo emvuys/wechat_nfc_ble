@@ -1,0 +1,83 @@
+/* pages/Mifare/Mifare.wxss */
+page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 垂直居中 */
+    height: 80rpx;
+    background-color: #ecf4fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30rpx;
+}
+
+
+.image{
+    background-color: #ecf4fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30rpx;
+}
+
+.log{
+    flex-direction: column;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    font-size: 30rpx;
+    /*height: 550rpx;*/
+    border-radius: 10rpx;
+    border: 1px solid rgb(20, 129, 224);
+    word-break:break-all;
+}
+
+.main {
+    flex: 1;
+    background-color: #eee;
+}
+
+.footer {
+    height: 50rpx;
+    background-color: #ccc;
+}
+
+.container_row1{
+    display: flex;
+    /*row 横向  column 列表  */
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.button {
+    width: 40%;
+    border-radius: 10rpx;
+    height: 60rpx;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size:30rpx;
+    background-color: #0b9ce2;
+    color: honeydew;
+    /*margin-left: 1%;*/
+    margin-top: 2%;
+    margin-right: 10px;
+}

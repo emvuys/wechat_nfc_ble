@@ -1,0 +1,23 @@
+<view class="page">
+    <view class="header">
+        <text>BLE蓝牙测试工具使用说明</text>
+    </view>
+    <view class="log">
+        <scroll-view scroll-y="true" class='text-box scroll-list'>
+            <text style="line-height:2">  BLE蓝牙测试工具是学习和理解蓝牙通信的微信小程序。
+                连接蓝牙成功之后，会返回蓝牙设备ID，根据蓝牙设备ID可以选择蓝牙服务ID，一个蓝牙设备对应N个蓝牙服务，
+                一个蓝牙服务对应N个蓝牙特征ID，一个蓝牙特征ID对应N个蓝牙特征值，一个蓝牙特征值对应N个蓝牙描述符，一个蓝牙描述符对应N个蓝牙描述符值，
+                蓝牙描述符值是蓝牙设备和手机之间的通信数据。
+            </text>
+            <text style='color:red; word-wrap: break-word;'>由于低功耗蓝牙通信只能支持20bytes的数据，本小程序已经实现数据的打包和解包，不受20bytes的限制。
+                        点击按钮，看完视频，将会展示通信协议</text>
+        </scroll-view>
+        <view class="container_row1">
+            <button class="button"  hover="true" hover-class="detail-hover" bindtap="about">点击按钮，看完视频，查看通信协议</button>
+        </view>
+        <view style="margin-top: 2%;">
+            <ad unit-id="adunit-7877ae17214d140c" ad-type="video" ad-theme="white"></ad>
+        </view>
+    </view>
+</view>
+
