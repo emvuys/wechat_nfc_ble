@@ -1,13 +1,19 @@
 <view class="page">
-    <view class="header">
+    <view >
         <text>BLE蓝牙测试工具通信协议说明</text>
-        <text></text>
+<!--        <text></text>-->
+<!--        <text style="color: red;">观看完视频，将会展示本小程序支持的通信协议</text>-->
+    </view>
+    <view>
         <text style="color: red;">观看完视频，将会展示本小程序支持的通信协议</text>
     </view>
+    <view>
+        <button class="button"  hover="true" hover-class="detail-hover" bindtap="about">观看完视频,查看通信协议</button>
+    </view>
+    <!-- <view style="margin-top: 8%;">
+          <ad unit-id="adunit-c3476c8dc844871e"></ad>
+      </view> -->
     <view  wx:if="{{flag}}">
-        <!-- <view style="margin-top: 8%;">
-            <ad unit-id="adunit-c3476c8dc844871e"></ad>
-        </view> -->
         <view class="image">
             <image src="/pages/image/protol.png"></image>
         </view>
